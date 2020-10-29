@@ -1,0 +1,63 @@
+#banner {
+  height: 100vh;
+  background: url("../../img//pizza-1.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+
+    .image-wrapper {
+      &::after {
+        content: "";
+        background-color: #fff;
+        width: 50px;
+        height: 2px;
+        color: #fff;
+        display: block;
+        position: absolute;
+        right: 174px;
+      }
+      margin: auto;
+      img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+    a {
+      position: relative;
+      border-radius: 50%;
+      width: 50px;
+      font-size: 30px;
+      color: #fff;
+      border: 2px solid #fff;
+      height: 50px;
+      i {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10.5px;
+        text-align: center;
+      }
+    }
+  }
+
+  .menu {
+    // position: relative;[
+    position: absolute;
+    top: 65px;
+    color: #fff;
+    right: 104px;
+    i {
+      font-size: 37px;
+    }
+  }
+}

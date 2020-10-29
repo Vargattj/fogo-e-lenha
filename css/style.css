@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+#banner {
+  height: 100vh;
+  background: url("../../img//pizza-1.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
+  #banner .wrapper {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative; }
+    #banner .wrapper .image-wrapper {
+      margin: auto; }
+      #banner .wrapper .image-wrapper::after {
+        content: "";
+        background-color: #fff;
+        width: 50px;
+        height: 2px;
+        color: #fff;
+        display: block;
+        position: absolute;
+        right: 174px; }
+      #banner .wrapper .image-wrapper img {
+        width: 100%;
+        margin: 0 auto;
+        display: block; }
+    #banner .wrapper a {
+      position: relative;
+      border-radius: 50%;
+      width: 50px;
+      font-size: 30px;
+      color: #fff;
+      border: 2px solid #fff;
+      height: 50px; }
+      #banner .wrapper a i {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10.5px;
+        text-align: center; }
+  #banner .menu {
+    position: absolute;
+    top: 65px;
+    color: #fff;
+    right: 104px; }
+    #banner .menu i {
+      font-size: 37px; }
