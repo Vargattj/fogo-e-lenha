@@ -62,6 +62,51 @@ ul {
     position: absolute;
     top: 65px;
     color: #fff;
-    right: 104px; }
+    right: 100px; }
     #banner .menu i {
       font-size: 37px; }
+
+#introduction {
+  background-color: #e8eced;
+  padding: 80px 0; }
+  #introduction .container {
+    width: 1080px;
+    margin: 0 auto; }
+    #introduction .container .article-about {
+      margin-bottom: 150px;
+      margin-left: auto;
+      width: 980px;
+      background-color: #fff;
+      padding: 60px;
+      position: relative;
+      height: 500px; }
+      #introduction .container .article-about.img-right {
+        margin: 0;
+        margin-right: auto; }
+      #introduction .container .article-about .desc {
+        padding-top: 30px;
+        max-width: 470px;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%; }
+        #introduction .container .article-about .desc.desc-right {
+          margin: 0;
+          margin-right: auto; }
+        #introduction .container .article-about .desc h2 {
+          color: #333;
+          font-size: 18px;
+          font-weight: 500; }
+        #introduction .container .article-about .desc p {
+          color: #333;
+          font-size: 24px;
+          font-weight: 300; }
+      #introduction .container .article-about img {
+        position: absolute;
+        left: -100px;
+        max-width: 400px; }
+      #introduction .container .article-about img.right {
+        left: initial;
+        right: -100px;
+        top: 60px; }
