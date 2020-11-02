@@ -22,7 +22,7 @@
       transition: background-color 0.2s;
 
       &:hover {
-        background-color: rgba(0, 0, 0,0.6);
+        background-color: rgba(0, 0, 0, 0.6);
       }
     }
     a {
@@ -34,4 +34,40 @@
 
 @mixin box-shadow {
   box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+@mixin absolute-box {
+  .container {
+    width: 960px;
+    background-color: #fff;
+    padding: 80px 0;
+    position: absolute;
+    text-align: center;
+    top: -160px;
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #333333;
+
+      &::after {
+        display: block;
+        content: "";
+        background-color: #444;
+        width: 50px;
+        height: 2px;
+        text-align: center;
+        margin: 30px auto;
+      }
+    }
+    p {
+      max-width: 650px;
+      color: #444;
+      font-size: 24px;
+      font-weight: normal;
+      line-height: 48px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
 }
