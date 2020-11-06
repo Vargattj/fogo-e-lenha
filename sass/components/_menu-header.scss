@@ -2,7 +2,7 @@
   width: 100%;
   height: 430px;
 
-  background: url("../../img/pizza-1.jpg") bottom no-repeat;
+  background: url("../../img/fogo-e-lenha-pizza-1.jpg") bottom no-repeat;
   background-size: cover;
 }
 
@@ -14,54 +14,4 @@
   height: 330px;
 
   @include absolute-box;
-}
-
-#menu {
-  display: flex;
-  margin-top: 60px;
-  .container {
-    width: 960px;
-    margin: 0 auto;
-  }
-  h3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #222;
-    font-weight: 550;
-    margin-bottom: 60px;
-    span {
-      font-weight: 550;
-      margin-left: 10px;
-      font-size: 12px;
-      font-weight: 500;
-    }
-  }
-
-  ul {
-    display: flex;
-    flex-direction: column;
-
-    li {
-      margin-bottom: 44px;
-      color: #444;
-
-      h4 {
-        font-size: 16px;
-        font-weight: 500;
-        margin-bottom: 10px;
-      }
-      p {
-        font-size: 16px;
-        max-width: 800px;
-      }
-      .item {
-        display: flex;
-        justify-content: space-between;
-      }
-      span {
-        align-self: flex-end;
-        justify-content: flex-start;
-      }
-    }
-  }
 }
