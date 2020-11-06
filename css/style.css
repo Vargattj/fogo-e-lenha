@@ -450,7 +450,7 @@ ul {
 .about-header {
   width: 100%;
   height: 430px;
-  background: url("img/fogo-e-lenha-pizza-4.jpg") center no-repeat;
+  background: url("./img/fogo-e-lenha-pizza-4.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -534,7 +534,7 @@ ul {
 .contact-header {
   width: 100%;
   height: 430px;
-  background: url("img/pizza-1.jpg") bottom no-repeat;
+  background: url("./img/pizza-1.jpg") bottom no-repeat;
   background-size: cover;
 }
 
