@@ -89,19 +89,16 @@
     left: 10px;
   }
 
-  /* Position the "next button" to the right */
   .next {
     z-index: 1000;
     right: 10px;
   }
 
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     transform: scale(1.2);
   }
 
-  /* Caption text */
   .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -112,7 +109,6 @@
     text-align: center;
   }
 
-  /* The dots/bullets/indicators */
   .dots {
     display: flex;
     justify-content: center;

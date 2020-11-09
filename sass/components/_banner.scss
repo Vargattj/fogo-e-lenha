@@ -66,7 +66,7 @@
   position: fixed;
   top: 65px;
   color: #fff;
-  padding-right: 60px;
+  padding-right: 24px;
   right: 0px;
   i {
     font-size: 37px;
@@ -84,11 +84,9 @@
   flex-direction: column;
   justify-content: space-around;
 
-  // visibility: hidden;
   pointer-events: none;
   right: -680px;
   z-index: 10;
-  // opacity: 0;
 
   li {
     a {
@@ -105,11 +103,9 @@
     max-width: 150px;
   }
   &.on {
-    right: 2px;
-    // visibility: initial;
+    right: 0px;
     pointer-events: initial;
-    // opacity: 1;
     background-color: #24252c;
   }
-  transition: right 1s cubic-bezier(0.76, 0.38, 0.6, 0.79);
+  transition: right 0.5s cubic-bezier(0.76, 0.38, 0.6, 0.79);
 }
