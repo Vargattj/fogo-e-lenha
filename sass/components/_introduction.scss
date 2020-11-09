@@ -8,8 +8,6 @@
     .article-about {
       &.img-right {
         margin-left: initial;
-        // margin-bottom: 150px;
-
         margin-right: auto;
       }
 
@@ -26,7 +24,6 @@
           margin: 0;
           margin-right: auto;
         }
-        padding-top: 30px;
         max-width: 470px;
         margin-left: auto;
         display: flex;
@@ -34,17 +31,24 @@
         justify-content: space-around;
         height: 100%;
 
+        color: #333;
         h2 {
-          color: #333;
           font-size: 18px;
           font-weight: 500;
         }
         p {
-          color: #333;
-          font-size: 24px;
+          font-size: 30px;
           font-weight: 300;
+          line-height: 1.7;
         }
         a {
+          text-transform: uppercase;
+          color: #333;
+          text-decoration: none;
+          font-size: 19px;
+          width: fit-content;
+          display: inline-block;
+          border-bottom: 1px solid #333;
         }
       }
 
